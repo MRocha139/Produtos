@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Produto"
+        android:inputType="text" />
+    <Spinner
+        android:id="@+id/spinnerCategoria"
+        android:entries="@array/lista_categorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <Spinner
+        android:id="@+id/spinnerQuantidade"
+        android:entries="@array/lista_quantidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:id="@+id/editValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor do Produto"
+        android:inputType="text" />
+    <Button
+        android:onClick="salvarProdutos"
+        android:id="@+id/btnSalvar"
+        android:text="Salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/listProduto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
