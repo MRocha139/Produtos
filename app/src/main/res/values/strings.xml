@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Produtos</string>
+    <string-array name="lista_categorias">
+        <item>Frutas</item>
+        <item>Verduras</item>
+        <item>Legumes</item>
+        <item>Carnes</item>
+        <item>Cereais</item>
+    </string-array>
+
+    <string-array name="lista_quantidades">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
